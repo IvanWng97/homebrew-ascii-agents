@@ -1,28 +1,28 @@
 class AsciiAgents < Formula
   desc "Terminal pixel-art office for AI coding agents"
   homepage "https://github.com/IvanWng97/ascii-agents"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.1/ascii-agents-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "91f1b76585d95e26bfc4acc3aec624d157fc3fcf4abaabb91dc9a0411928625a"
+      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.2/ascii-agents-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "903cf3fda599b66bfb313cea3b933ff39204971bcb75e509d84ffc3054c3b4d4"
     end
     on_intel do
-      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.1/ascii-agents-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a2ea0ef5b7fcf15ba954768b6d0770127f40803359f0b7d8e5838480df873ef0"
+      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.2/ascii-agents-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "e5f708b9eb913a2ee4986f8748bf49c9f6fa3adbcb9406b3a0cca5f146bf29be"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.1/ascii-agents-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "660e99169ccf4e736c3625b77217a3de3fcd5986f9ff2f30ed7001501784c109"
+      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.2/ascii-agents-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "90b5e192ad4787564b2a7ca63a00d5bc165002cedf9819324da2e8de3e118220"
     end
     on_intel do
-      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.1/ascii-agents-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6c1d024fccb2e6f0b8516f13bcc9e4239dba22fb4a630e97fb1f9b0431a792c2"
+      url "https://github.com/IvanWng97/ascii-agents/releases/download/v0.1.2/ascii-agents-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "317d52fca621dff8bf479ff0d0ce2cb1f8cd11959ac9a58f03cd4b6c61242d02"
     end
   end
 
