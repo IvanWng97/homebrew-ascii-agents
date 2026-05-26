@@ -1,7 +1,6 @@
 class AsciiAgents < Formula
   desc "Terminal pixel-art office for AI coding agents"
   homepage "https://github.com/IvanWng97/ascii-agents"
-  version "0.3.0"
   license "MIT"
 
   on_macos do
